@@ -1,5 +1,6 @@
 #Weekdays Using match case
 x=input("Enter Your Day Number : ")
+x=int(x)
 match x:
     case 1: 
         print("Sunday")
