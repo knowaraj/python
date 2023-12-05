@@ -2,7 +2,7 @@ print("\nWelcome to Quiz contest with Real Moneyy!\n")
 list=[
     ["Who killed Bahubalii?","Bahubali","Katappa","Mahismati","Bhasme Don",2],
     ["Who is real Spiderman?","Peter","peter","peTer","None",4],
-    ["Whats most sold phone brand?","Samsung","Oppo","Mahismati","Bhasme Don",1],
+    ["Whats most sold phone brand?","Samsung","Oppo","iphone","Vivo",1],
     ["Which language is this code?","C","Java","Python","Sudhha Nepali",3],
     ["What year is this?","2023","2080","2024","2070",2],
     ["Whats is V in roman?","1","2","5","7",3]
@@ -21,10 +21,10 @@ for i in range (len(list)):
         paisa=money[i-1]
 
     if(choice==question[5]):
-        print("Congratulation your answer is correct !!")
+        print("Congratulation your answer is correct !!\n")
         paisa=money[i]
     else:
-        print(f"Sorry wrong answer ! ")
+        print(f"\nSorry wrong answer ! \n")
         break
 
 print(f"Your takeaway money is {paisa}")
